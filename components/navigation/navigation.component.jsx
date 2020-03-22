@@ -48,7 +48,7 @@ const Navbar = () => (
       </div>
 
       <div className="holder2 5">
-        <Link href="#contact">
+        <Link href="/blog">
           <a>
             <FaCocktail />
             <br />
