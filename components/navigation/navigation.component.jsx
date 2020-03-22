@@ -1,5 +1,4 @@
 import {
-  FaCocktail,
   FaStoreAlt,
   FaRegHeart,
   FaProjectDiagram,
@@ -13,55 +12,58 @@ import { Navigation } from "./navigation.style";
 const Navbar = () => (
   <Navigation>
     <div className="container">
-      <div className="holder 1">
-        <Link href="/">
-          <a>
+      <Link href="/">
+        <a>
+          <div className="holder 1">
             <FaStoreAlt />
             <br />
             Home
-          </a>
-        </Link>
-      </div>
+          </div>{" "}
+        </a>
+      </Link>
 
-      <div className="holder 2">
-        <Link href="#projects">
-          <a>
+      <Link href="/#projects">
+        <a>
+          <div className="holder 2">
             <FaProjectDiagram />
             <br />
             Projects
-          </a>
-        </Link>
-      </div>
+          </div>{" "}
+        </a>
+      </Link>
 
-      <div className="holder 3">
-        <Link href="#feedback">
-          <a>
+      <Link href="/#feedback">
+        <a>
+          {" "}
+          <div className="holder 3">
             <FaRegHeart />
             <br />
             Feedback
-          </a>
-        </Link>
-      </div>
+          </div>{" "}
+        </a>
+      </Link>
 
-      <div className="holder 4">
-        <Link href="#contact">
-          <a>
+      <Link href="/#contact">
+        <a>
+          {" "}
+          <div className="holder 4">
             <FiSend />
             <br />
             Contact
-          </a>
-        </Link>
-      </div>
+          </div>{" "}
+        </a>
+      </Link>
 
-      <div className="holder2 5">
-        <Link href="/blog">
-          <a>
+      <Link href="/blog">
+        <a>
+          {" "}
+          <div className="holder2 5">
             <FaNewspaper />
             <br />
             Blog
-          </a>
-        </Link>
-      </div>
+          </div>{" "}
+        </a>
+      </Link>
     </div>
   </Navigation>
 );

@@ -35,6 +35,10 @@ export const Prim = styled.div`
   top: -120px;
   border: 2px solid #ff8a00;
   border-radius: 50%;
+
+  .mobile-hide {
+    display: none;
+  }
 `;
 
 export const Intro = styled.div`

@@ -3,7 +3,7 @@ import { Header, Main, Prim, Intro } from "./header.styles";
 const HeaderSection = () => (
   <Header>
     <Main>
-      <Prim />
+      <Prim className="hide-mobile" />
       <div></div>
       <Intro>
         <img className="picture" src="/clemensfabig.jpg" alt="Clemens Fabig" />

@@ -96,6 +96,10 @@ export const Layout = styled.div`
       rgba(255, 138, 0, 1) 50%
     );
   }
+
+  .privacy {
+    padding: 100px 20px;
+  }
 `;
 
 // .client {
