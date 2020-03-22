@@ -4,19 +4,19 @@ import Link from "next/link";
 const CustomerSection = () => (
   <Customers id="projects">
     <h2>Some of my work</h2>
-    <div class="underline-orange"></div>
+    <div className="underline-orange"></div>
     <Display>
       <Prim />
       <div>
         <img
-          class="display-img"
-          src="img/shopRef.jpg"
+          className="display-img"
+          src="/shopRef.jpg"
           alt="ReactJS Reference"
         />
       </div>
       <div>
         <h3>Online Shop</h3>
-        <div class="underline-small-orange"></div>
+        <div className="underline-small-orange"></div>
         <p>
           *** Important Note: This is a portfolio project. It's hosted on
           Herokus free service. The initial loading time could be increased
@@ -49,7 +49,7 @@ const CustomerSection = () => (
           <br />
         </p>
         <a
-          class="button"
+          className="button"
           href="https://shop-app-portfolio.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
@@ -65,14 +65,14 @@ const CustomerSection = () => (
       <Triangle />
       <div>
         <img
-          class="display-img"
-          src="img/crudExampelDjango.jpg"
+          className="display-img"
+          src="/crudExampelDjango.jpg"
           alt="Django Reference CRUD"
         />
       </div>
       <div>
         <h3>Coming soon: a simple CRUD example in pure Django</h3>
-        <div class="underline-small-orange"></div>
+        <div className="underline-small-orange"></div>
         <p>
           Django is a powerful framework based on python.
           <br />
@@ -93,7 +93,7 @@ const CustomerSection = () => (
           <br />
         </p>
         <Link href="#contact">
-          <a class="button">
+          <a className="button">
             <b>Get in touch</b>
           </a>
         </Link>
@@ -107,14 +107,14 @@ const CustomerSection = () => (
       <Prim />
       <div>
         <img
-          class="display-img"
-          src="img/mirage.jpg"
+          className="display-img"
+          src="/mirage.jpg"
           alt="HTML and CSS Reference"
         />
       </div>
       <div>
         <h3>Mirage Cosmetics</h3>
-        <div class="underline-small-orange"></div>
+        <div className="underline-small-orange"></div>
         <p>
           My first Client. The studio is right around the building where I grew
           up.
@@ -143,7 +143,7 @@ const CustomerSection = () => (
           <br />
         </p>
         <a
-          class="button"
+          className="button"
           href="https://www.kosmetikstudio-hildesheim.de/"
           target="_blank"
           rel="noreferrer"
@@ -158,14 +158,14 @@ const CustomerSection = () => (
     <Display>
       <div>
         <img
-          class="display-img"
-          src="img/farbenfreak.jpg"
+          className="display-img"
+          src="/farbenfreak.jpg"
           alt="JavaScript and Webflow Reference"
         />
       </div>
       <div>
         <h3>Farbenfreak</h3>
-        <div class="underline-small-orange"></div>
+        <div className="underline-small-orange"></div>
         <p>
           Originally started as a painter but made his way to an informal
           interior architect. <br />
@@ -191,7 +191,7 @@ const CustomerSection = () => (
           <br />
         </p>
         <a
-          class="button"
+          className="button"
           href="https://www.farbenfreak.com/"
           target="_blank"
           rel="noreferrer"
@@ -208,14 +208,14 @@ const CustomerSection = () => (
       <Prim />
       <div>
         <img
-          class="display-img"
-          src="img/nataliaNezlawPage.jpg"
+          className="display-img"
+          src="/nataliaNezlawPage.jpg"
           alt="Simple online Businesscard"
         />
       </div>
       <div>
         <h3>Natalia Nezlaw - Gynecologist</h3>
-        <div class="underline-small-orange"></div>
+        <div className="underline-small-orange"></div>
         <p>
           Natalia Nezlaw is a gynecologist in the south of germany. <br />
           <br />
@@ -240,7 +240,7 @@ const CustomerSection = () => (
           <br />
         </p>
         <a
-          class="button"
+          className="button"
           href="http://www.praxisnatalianezlaw.de/"
           target="_blank"
           rel="noreferrer"
@@ -253,7 +253,7 @@ const CustomerSection = () => (
       </div>
     </Display>
     <Link href="#contact">
-      <a class="button">
+      <a className="button">
         <b>Get in touch</b>
       </a>
     </Link>

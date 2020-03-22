@@ -10,6 +10,11 @@ export const Header = styled.section`
     rgba(229, 46, 113, 1) 100%
   );
   overflow: hidden;
+
+  .picture {
+    width: 200px;
+    border-radius: 50%;
+  }
 `;
 
 export const Main = styled.div`
@@ -41,12 +46,3 @@ export const Intro = styled.div`
   border-radius: 50%;
   align-self: center;
 `;
-
-export const Picture = styled.div`
-  width: 200px;
-  border-radius: 50%;
-`;
-
-//         h1 {
-//           font-size: 38px;
-//           color: white;

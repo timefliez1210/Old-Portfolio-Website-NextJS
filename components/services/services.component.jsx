@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const ServiceSection = () => (
   <Services>
-    <div class="whaticanbuilld">
+    <div className="whaticanbuilld">
       <Card>
         <h2>What can I build?</h2>
-        <div class="underline-small"></div>
+        <div className="underline-small"></div>
         <br />
         <br />
         <p>
@@ -23,7 +23,7 @@ const ServiceSection = () => (
           <br />
         </p>
         <h3>I am currently available for work</h3>
-        <div class="underline-small"></div>
+        <div className="underline-small"></div>
         <br />
         <br />
         <h4>Let's collaborate</h4>
@@ -31,7 +31,7 @@ const ServiceSection = () => (
         <br />
         <br />
         <Link href="#contact">
-          <a class="button">
+          <a className="button">
             <b>Get in touch</b>
           </a>
         </Link>
@@ -40,15 +40,15 @@ const ServiceSection = () => (
         <br />
       </Card>
     </div>
-    <div class="orangeline"></div>
+    <div className="orangeline"></div>
     <h2>My services</h2>
-    <div class="underline"></div> <br />
+    <div className="underline"></div> <br />
     <br /> <br />
     <br />
     <Main>
       <Card>
         <h3>Frontend</h3>
-        <div class="underline-small"></div>
+        <div className="underline-small"></div>
         <br />
         <br />
         <p>
@@ -71,7 +71,7 @@ const ServiceSection = () => (
       </Card>
       <Card>
         <h3>Backend</h3>
-        <div class="underline-small"></div>
+        <div className="underline-small"></div>
         <br />
         <br />
         <p>
@@ -92,7 +92,7 @@ const ServiceSection = () => (
       </Card>
       <Card>
         <h3>My Tools</h3>
-        <div class="underline-small"></div>
+        <div className="underline-small"></div>
         <br />
         <br />
         <p>

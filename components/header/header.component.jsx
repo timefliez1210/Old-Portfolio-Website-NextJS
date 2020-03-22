@@ -1,4 +1,4 @@
-import { Header, Main, Prim, Intro, Picture } from "./header.styles";
+import { Header, Main, Prim, Intro } from "./header.styles";
 
 const HeaderSection = () => (
   <Header>
@@ -6,13 +6,9 @@ const HeaderSection = () => (
       <Prim />
       <div></div>
       <Intro>
-        <Picture
-          class="picture"
-          src="../../src/assets/images/clemensfabig.JPG"
-          alt="Clemens Fabig"
-        />
+        <img className="picture" src="/clemensfabig.jpg" alt="Clemens Fabig" />
         <h1>Hi my name is Clemens.</h1>
-        <div class="animation">
+        <div className="animation">
           I <span id="text"></span>
         </div>
         <br />

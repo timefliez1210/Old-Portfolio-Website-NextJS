@@ -4,16 +4,16 @@ import { FiStar } from "react-icons/fi";
 const FeedbackSection = () => (
   <Feedback id="feedback">
     <h2>Testimonials</h2>
-    <div class="underline"></div>
+    <div className="underline"></div>
     <Main>
       <Card>
         <img
-          class="customer"
-          src="img/elenaMigunov.jpg"
+          className="customer"
+          src="/elenaMigunov.jpg"
           alt="Elena Migunov - Mirage Cosmetics"
         />
         <p>Elena Migunov - Mirage Cosmetics</p>
-        <div class="stars">
+        <div className="stars">
           <br />
           <FiStar />
           <FiStar />
@@ -33,7 +33,7 @@ const FeedbackSection = () => (
         <br />
         <br />
         <a
-          class="button"
+          className="button"
           href="https://www.kosmetikstudio-hildesheim.de/"
           target="_blank"
           rel="noreferrer"
@@ -46,12 +46,12 @@ const FeedbackSection = () => (
       </Card>
       <Card>
         <img
-          class="client"
-          src="img/Nextlevel-logowt.png"
+          className="client"
+          src="/Nextlevel-logowt.png"
           alt="nextlevel Medienagentur"
         />
         <p>Sascha Napiralla - CEO</p>
-        <div class="stars">
+        <div className="stars">
           <br />
           <FiStar />
           <FiStar />
@@ -66,7 +66,7 @@ const FeedbackSection = () => (
         <br />
         <br />
         <a
-          class="button"
+          className="button"
           href="http://www.nextlevel-medienagentur.de"
           target="_blank"
           rel="noreferrer"
@@ -79,12 +79,12 @@ const FeedbackSection = () => (
       </Card>
       <Card>
         <img
-          class="customer"
-          src="img/nataliaNezlaw.jpg"
+          className="customer"
+          src="/nataliaNezlaw.jpg"
           alt="Elena Migunov - Mirage Cosmetics"
         />
         <p>Natalia Nezlaw - Gynecologist</p>
-        <div class="stars">
+        <div className="stars">
           <br />
           <FiStar /> <FiStar /> <FiStar /> <FiStar />
           <FiStar />
@@ -100,7 +100,7 @@ const FeedbackSection = () => (
         <br />
         <br />
         <a
-          class="button"
+          className="button"
           href="http://www.praxisnatalianezlaw.de/"
           target="_blank"
           rel="noreferrer"

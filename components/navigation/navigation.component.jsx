@@ -1,5 +1,11 @@
-import { FaCocktail, FaShuttleVan, FaBeer } from "react-icons/fa";
-import { IoMdMailUnread } from "react-icons/io";
+import {
+  FaCocktail,
+  FaStoreAlt,
+  FaRegHeart,
+  FaProjectDiagram,
+  FaNewspaper
+} from "react-icons/fa";
+import { FiSend } from "react-icons/fi";
 import Link from "next/link";
 
 import { Navigation } from "./navigation.style";
@@ -10,7 +16,7 @@ const Navbar = () => (
       <div className="holder 1">
         <Link href="/">
           <a>
-            <FaCocktail />
+            <FaStoreAlt />
             <br />
             Home
           </a>
@@ -20,7 +26,7 @@ const Navbar = () => (
       <div className="holder 2">
         <Link href="#projects">
           <a>
-            <FaCocktail />
+            <FaProjectDiagram />
             <br />
             Projects
           </a>
@@ -30,7 +36,7 @@ const Navbar = () => (
       <div className="holder 3">
         <Link href="#feedback">
           <a>
-            <FaCocktail />
+            <FaRegHeart />
             <br />
             Feedback
           </a>
@@ -40,7 +46,7 @@ const Navbar = () => (
       <div className="holder 4">
         <Link href="#contact">
           <a>
-            <FaCocktail />
+            <FiSend />
             <br />
             Contact
           </a>
@@ -50,7 +56,7 @@ const Navbar = () => (
       <div className="holder2 5">
         <Link href="/blog">
           <a>
-            <FaCocktail />
+            <FaNewspaper />
             <br />
             Blog
           </a>

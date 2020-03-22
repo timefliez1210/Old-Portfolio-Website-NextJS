@@ -14,6 +14,12 @@ export const Contact = styled.section`
     font-size: 24px;
     margin: 20px;
   }
+
+  .hire {
+    width: 300px;
+    position: relative;
+    z-index: 5;
+  }
 `;
 export const Main = styled.div`
   text-align: center;

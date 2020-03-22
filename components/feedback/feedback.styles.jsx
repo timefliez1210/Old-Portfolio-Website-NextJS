@@ -54,4 +54,8 @@ export const Card = styled.div`
     height: 90px;
     border-radius: 50%;
   }
+
+  .client {
+    width: 200px;
+  }
 `;
