@@ -1,7 +1,7 @@
 import { Contact, Main, Card } from "./contact.styles";
 
 const ContactSection = () => (
-  <Contact>
+  <Contact id="contact">
     <h2>Let's collaborate!</h2>
     <div class="underline"></div>
     <Main>

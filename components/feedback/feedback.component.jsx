@@ -1,7 +1,8 @@
 import { Feedback, Main, Card } from "./feedback.styles";
+import { FiStar } from "react-icons/fi";
 
 const FeedbackSection = () => (
-  <Feedback>
+  <Feedback id="feedback">
     <h2>Testimonials</h2>
     <div class="underline"></div>
     <Main>
@@ -13,11 +14,12 @@ const FeedbackSection = () => (
         />
         <p>Elena Migunov - Mirage Cosmetics</p>
         <div class="stars">
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
+          <br />
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar />
         </div>
         <br />
         <br />
@@ -50,11 +52,12 @@ const FeedbackSection = () => (
         />
         <p>Sascha Napiralla - CEO</p>
         <div class="stars">
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
+          <br />
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar />
         </div>
         <br />
         <br />
@@ -82,11 +85,9 @@ const FeedbackSection = () => (
         />
         <p>Natalia Nezlaw - Gynecologist</p>
         <div class="stars">
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
-          <img class="star" src="img/star.png" alt="Star for service" />
+          <br />
+          <FiStar /> <FiStar /> <FiStar /> <FiStar />
+          <FiStar />
         </div>
         <br />
         <br />

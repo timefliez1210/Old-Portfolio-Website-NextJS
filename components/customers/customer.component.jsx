@@ -1,7 +1,8 @@
 import { Customers, Display, Prim, Cube, Triangle } from "./customer.styles";
+import Link from "next/link";
 
 const CustomerSection = () => (
-  <Customers>
+  <Customers id="projects">
     <h2>Some of my work</h2>
     <div class="underline-orange"></div>
     <Display>
@@ -91,9 +92,11 @@ const CustomerSection = () => (
           <br />
           <br />
         </p>
-        <a class="button" href="#contact-form">
-          <b>Get in touch</b>
-        </a>
+        <Link href="#contact">
+          <a class="button">
+            <b>Get in touch</b>
+          </a>
+        </Link>
         <br />
         <br />
         <br />
@@ -249,9 +252,11 @@ const CustomerSection = () => (
         <br />
       </div>
     </Display>
-    <a class="button" href="#contact-form">
-      <b>Get in touch</b>
-    </a>
+    <Link href="#contact">
+      <a class="button">
+        <b>Get in touch</b>
+      </a>
+    </Link>
     <br />
     <br />
     <br />

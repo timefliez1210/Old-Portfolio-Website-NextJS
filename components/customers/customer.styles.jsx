@@ -38,11 +38,11 @@ export const Display = styled.div`
   background: #001628;
   box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
   position: relative;
-  z-index: 3;
+  z-index: 0;
   .display-img {
     width: 100%;
     align-self: center;
-    z-index: 3;
+    z-index: 0;
     border-radius: 40px;
     box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
   }
@@ -56,7 +56,7 @@ export const Prim = styled.div`
   top: -120px;
   border: 2px solid #ff8a00;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 0;
 `;
 
 export const Cube = styled.div`

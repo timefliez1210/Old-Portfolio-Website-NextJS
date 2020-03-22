@@ -35,9 +35,13 @@ export const Card = styled.div`
   min-width: 300px;
   max-width: 60vw;
   background-color: #001628;
-  .star {
+
+  .stars {
     width: 20px;
     height: 20px;
+    color: yellow;
+    padding: 20px;
+    display: inline;
   }
 
   p {

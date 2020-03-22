@@ -1,4 +1,5 @@
 import { Services, Card, Main } from "./services.styles";
+import Link from "next/link";
 
 const ServiceSection = () => (
   <Services>
@@ -29,9 +30,11 @@ const ServiceSection = () => (
         <br />
         <br />
         <br />
-        <a class="button" href="#contact-form">
-          <b>Get in touch</b>
-        </a>
+        <Link href="#contact">
+          <a class="button">
+            <b>Get in touch</b>
+          </a>
+        </Link>
         <br />
         <br />
         <br />
