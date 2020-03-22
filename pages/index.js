@@ -9,86 +9,84 @@ import FooterSection from "../components/footer/footer.component";
 import { Layout } from "./style.jsx";
 
 const Home = () => (
-  <div>
+  <Layout>
     <Navbar />
 
-    <Layout>
-      <HeaderSection />
+    <HeaderSection />
 
-      {/* <!-- services  --> */}
+    {/* <!-- services  --> */}
 
-      <ServiceSection />
+    <ServiceSection />
 
-      {/* <!-- customer  --> */}
+    {/* <!-- customer  --> */}
 
-      <CustomerSection />
+    <CustomerSection />
 
-      {/* <!-- feedback  --> */}
+    {/* <!-- feedback  --> */}
 
-      <FeedbackSection />
+    <FeedbackSection />
 
-      {/* <!-- Contact --> */}
+    {/* <!-- Contact --> */}
 
-      <ContactSection />
+    <ContactSection />
 
-      {/* <!-- footer  --> */}
+    {/* <!-- footer  --> */}
 
-      <FooterSection />
+    <FooterSection />
 
-      <style jsx global>{`
-        body::-webkit-scrollbar {
-          width: 1em;
+    <style jsx global>{`
+      body::-webkit-scrollbar {
+        width: 1em;
+      }
+
+      body::-webkit-scrollbar-track {
+        background: #001628;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background: rgb(255, 138, 0);
+        background: linear-gradient(
+          166deg,
+          rgba(229, 46, 113, 1) 40%,
+          rgba(255, 138, 0, 1) 100%
+        );
+        outline: #001628;
+        width: 1em;
+        margin: 0 auto;
+        border-radius: 20px;
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+      * {
+        font-family: Raleway;
+        padding: 0;
+        margin: 0;
+      }
+
+      body,
+      html {
+        width: 100vw;
+        overflow-x: hidden;
+        display: inline-block;
+      }
+
+      @media (max-width: 800px) {
+        .mobile-hide {
+          display: none;
         }
-
-        body::-webkit-scrollbar-track {
-          background: #001628;
-        }
-
-        body::-webkit-scrollbar-thumb {
-          background: rgb(255, 138, 0);
-          background: linear-gradient(
-            166deg,
-            rgba(229, 46, 113, 1) 40%,
-            rgba(255, 138, 0, 1) 100%
-          );
-          outline: #001628;
-          width: 1em;
-          margin: 0 auto;
-          border-radius: 20px;
-        }
-
-        @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-
-        * {
-          font-family: Raleway;
-          padding: 0;
+        .main {
           margin: 0;
-        }
-
-        body,
-        html {
           width: 100vw;
-          overflow-x: hidden;
-          display: inline-block;
+          text-align: center;
         }
-
-        @media (max-width: 800px) {
-          .mobile-hide {
-            display: none;
-          }
-          .main {
-            margin: 0;
-            width: 100vw;
-            text-align: center;
-          }
-          * {
-            margin: 0;
-            padding: 0;
-          }
+        * {
+          margin: 0;
+          padding: 0;
         }
-      `}</style>
-    </Layout>
-  </div>
+      }
+    `}</style>
+  </Layout>
 );
 
 export default Home;

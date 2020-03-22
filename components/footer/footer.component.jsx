@@ -1,8 +1,11 @@
 import { Footer, Cube, Prim } from "./footer.styles";
+import Link from "next/link";
 
 const FooterSection = () => (
   <Footer>
-    <a href="privacy.html">Privacy Policy & Legal Stuff</a>
+    <Link href="/privacy">
+      <a>Privacy Policy & Legal Stuff</a>
+    </Link>
     <Prim />
     <p>&copy; by Clemens Fabig, 2020</p>
     <Cube />
