@@ -1,203 +1,156 @@
-import Head from 'next/head'
+import Navbar from "../components/navigation/navigation.component";
+import HeaderSection from "../components/header/header.component";
+import ServiceSection from "../components/services/services.component";
+import CustomerSection from "../components/customers/customer.component";
+import FeedbackSection from "../components/feedback/feedback.component";
+import ContactSection from "../components/contact/contact.component";
+import FooterSection from "../components/footer/footer.component";
+
+import { Layout } from "./style.jsx";
 
 const Home = () => (
-  <div className="container">
-    <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+  <div>
+    <Navbar />
 
-    <main>
-      <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+    <Layout>
+      <HeaderSection />
 
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
+      {/* <!-- services  --> */}
 
-      <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <ServiceSection />
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
+      {/* <!-- customer  --> */}
 
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
+      <CustomerSection />
 
-        <a
-          href="https://zeit.co/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with ZEIT Now.
-          </p>
-        </a>
-      </div>
-    </main>
+      {/* <!-- feedback  --> */}
 
-    <footer>
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-      </a>
-    </footer>
+      <FeedbackSection />
 
-    <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+      {/* <!-- Contact --> */}
 
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+      <ContactSection />
 
-      footer {
-        width: 100%;
-        height: 100px;
-        border-top: 1px solid #eaeaea;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      {/* <!-- footer  --> */}
 
-      footer img {
-        margin-left: 0.5rem;
-      }
+      <FooterSection />
 
-      footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      <style jsx global>{`
+        body::-webkit-scrollbar {
+          width: 1em;
+        }
 
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
+        body::-webkit-scrollbar-track {
+          background: #001628;
+        }
 
-      .title a {
-        color: #0070f3;
-        text-decoration: none;
-      }
+        body::-webkit-scrollbar-thumb {
+          background: rgb(255, 138, 0);
+          background: linear-gradient(
+            166deg,
+            rgba(229, 46, 113, 1) 40%,
+            rgba(255, 138, 0, 1) 100%
+          );
+          outline: #001628;
+          width: 1em;
+          margin: 0 auto;
+          border-radius: 20px;
+        }
 
-      .title a:hover,
-      .title a:focus,
-      .title a:active {
-        text-decoration: underline;
-      }
+        @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
-      .title {
-        margin: 0;
-        line-height: 1.15;
-        font-size: 4rem;
-      }
+        * {
+          font-family: Raleway;
+          padding: 0;
+          margin: 0;
+        }
 
-      .title,
-      .description {
-        text-align: center;
-      }
+        body,
+        html {
+          width: 100vw;
+          overflow-x: hidden;
+          display: inline-block;
+        }
 
-      .description {
-        line-height: 1.5;
-        font-size: 1.5rem;
-      }
+        @media (max-width: 800px) {
+          .mobile-hide {
+            display: none;
+          }
+          .main {
+            margin: 0;
+            width: 100vw;
+            text-align: center;
+          }
+          * {
+            margin: 0;
+            padding: 0;
+          }
+        }
+      `}</style>
+    </Layout>
+  </div>
+);
 
-      code {
-        background: #fafafa;
-        border-radius: 5px;
-        padding: 0.75rem;
-        font-size: 1.1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
+export default Home;
 
-      .grid {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+{
+  /* <script>
+      var _CONTENT = [
+        "create websites",
+        "create web and mobile applications",
+        "love everything about code",
+        "solve problems."
+      ];
 
-        max-width: 800px;
-        margin-top: 3rem;
-      }
+      var _PART = 0;
 
-      .card {
-        margin: 1rem;
-        flex-basis: 45%;
-        padding: 1.5rem;
-        text-align: left;
-        color: inherit;
-        text-decoration: none;
-        border: 1px solid #eaeaea;
-        border-radius: 10px;
-        transition: color 0.15s ease, border-color 0.15s ease;
-      }
 
-      .card:hover,
-      .card:focus,
-      .card:active {
-        color: #0070f3;
-        border-color: #0070f3;
-      }
+      var _PART_INDEX = 0;
 
-      .card h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.5rem;
-      }
 
-      .card p {
-        margin: 0;
-        font-size: 1.25rem;
-        line-height: 1.5;
-      }
+      var _INTERVAL_VAL;
 
-      @media (max-width: 600px) {
-        .grid {
-          width: 100%;
-          flex-direction: column;
+
+      var _ELEMENT = document.querySelector("#text");
+
+
+      function Type() {
+        var text = _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX++;
+
+        // If full sentence has been displayed then start to delete the sentence after some time
+        if (text === _CONTENT[_PART]) {
+          clearInterval(_INTERVAL_VAL);
+          setTimeout(function() {
+            _INTERVAL_VAL = setInterval(Delete, 50);
+          }, 1000);
         }
       }
-    `}</style>
 
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      // Implements deleting effect
+      function Delete() {
+        var text = _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX--;
+
+        // If sentence has been deleted then start to display the next sentence
+        if (text === "") {
+          clearInterval(_INTERVAL_VAL);
+
+          // If last sentence then display the first one, else move to the next
+          if (_PART == _CONTENT.length - 1) _PART = 0;
+          else _PART++;
+          _PART_INDEX = 0;
+
+          // Start to display the next sentence after some time
+          setTimeout(function() {
+            _INTERVAL_VAL = setInterval(Type, 100);
+          }, 200);
+        }
       }
 
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
-  </div>
-)
-
-export default Home
+      // Start the typing effect on load
+      _INTERVAL_VAL = setInterval(Type, 100);
+    </script> */
+}
