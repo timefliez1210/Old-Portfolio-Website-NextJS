@@ -71,7 +71,7 @@ const Blog = props => (
 );
 
 Blog.getInitialProps = async function() {
-  const res = await fetch("http://127.0.0.1:8000/api/");
+  const res = await fetch("https://my-awesom-blog-api.herokuapp.com/api/");
   const data = await res.json();
 
   return {
