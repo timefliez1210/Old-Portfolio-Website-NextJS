@@ -36,7 +36,7 @@ export const Prim = styled.div`
   border: 2px solid #ff8a00;
   border-radius: 50%;
 
-  .mobile-hide {
+  @media (max-width: 800px) {
     display: none;
   }
 `;

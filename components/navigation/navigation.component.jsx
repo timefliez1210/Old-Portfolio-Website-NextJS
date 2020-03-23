@@ -38,7 +38,7 @@ const Navbar = () => (
           <div className="holder 3">
             <FaRegHeart />
             <br />
-            Feedback
+            Ratings
           </div>{" "}
         </a>
       </Link>
