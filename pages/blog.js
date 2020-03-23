@@ -2,7 +2,7 @@ import Navbar from "../components/navigation/navigation.component";
 import HeaderSection from "../components/header/header.component";
 import FooterSection from "../components/footer/footer.component";
 import BlogOverview from "../components/blog_overview/blogOverview.component";
-import { Layout } from "./style.jsx";
+import { Layout } from "../components/style.jsx";
 
 import fetch from "isomorphic-unfetch";
 

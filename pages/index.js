@@ -7,7 +7,7 @@ import ContactSection from "../components/contact/contact.component";
 import FooterSection from "../components/footer/footer.component";
 import Head from "next/head";
 
-import { Layout } from "./style.jsx";
+import { Layout } from "../components/style.jsx";
 
 const Home = () => (
   <Layout>
