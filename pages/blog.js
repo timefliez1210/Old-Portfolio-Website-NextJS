@@ -1,15 +1,18 @@
 import Navbar from "../components/navigation/navigation.component";
 import HeaderSection from "../components/header/header.component";
 import FooterSection from "../components/footer/footer.component";
+import BlogOverview from "../components/blog_overview/blogOverview.component";
 import { Layout } from "./style.jsx";
 
-const Blog = () => (
+import fetch from "isomorphic-unfetch";
+
+const Blog = props => (
   <Layout>
     <Navbar />
 
     <HeaderSection />
 
-    <h1>Hello from Blog</h1>
+    <BlogOverview {...props} />
 
     <FooterSection />
     <style jsx global>{`
@@ -66,5 +69,14 @@ const Blog = () => (
     `}</style>
   </Layout>
 );
+
+Blog.getInitialProps = async function() {
+  const res = await fetch("http://127.0.0.1:8000/api/");
+  const data = await res.json();
+
+  return {
+    posts: data
+  };
+};
 
 export default Blog;
