@@ -1,6 +1,12 @@
 import { BlogList, Card, Prim } from "./blogOverview.styles";
 import Link from "next/link";
 
+const PostLink = props => (
+  <Link href="/blog/[slug]" as={`/blog/${props.slug}`}>
+    <a>{props.slug}</a>
+  </Link>
+);
+
 const BlogOverview = props => (
   <BlogList>
     {props.posts.map(post => (
@@ -9,7 +15,7 @@ const BlogOverview = props => (
         <div>
           <img
             className="display-img"
-            src={post.image}
+            src={post.picture}
             alt="ReactJS Reference"
           />
         </div>
@@ -17,9 +23,9 @@ const BlogOverview = props => (
           <h3>{post.title}</h3>
           <div className="underline-small-orange"></div>
           <p>{post.preview}</p>
-          <Link href={post.slug}>
+          <Link href="/blog/[slug]" as={`/blog/${post.slug}`}>
             <a className="button">
-              <b>Read More</b>
+              <b>{post.title}</b>
             </a>
           </Link>
           <br />
