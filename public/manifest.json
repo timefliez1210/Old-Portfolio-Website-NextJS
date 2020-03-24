@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Freelancing Webdesigner, Web Developer and Mobile Application Developer",
+  "short_name": "Clean Code",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -10,6 +10,11 @@
     {
       "src": "/android-chrome-256x256.png",
       "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/splashscreen.png",
+      "sizes": "512x642",
       "type": "image/png"
     }
   ],
