@@ -13,11 +13,16 @@ const Home = () => (
   <Layout>
     <Head>
       <title>Freelance Web dev</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta
         name="viewport"
-        content="initial-scale=1.0, width=device-width"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         key="viewport"
       />
+      <meta name="description" content="Description" />
+
+      <link rel="manifest" href="/manifest.json" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -35,7 +40,7 @@ const Home = () => (
         sizes="16x16"
         href="/favicon-16x16.png"
       />
-      <link rel="manifest" href="/site.webmanifest" />
+      <meta name="theme-color" content="#001628" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     </Head>
     <Navbar />

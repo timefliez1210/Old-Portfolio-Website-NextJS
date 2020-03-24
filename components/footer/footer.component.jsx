@@ -9,7 +9,7 @@ const FooterSection = () => (
     <Prim />
     <p>&copy; by Clemens Fabig, 2020</p>
     <Cube />
-    <p>Made with &#10084; by Clemens Fabigss</p>
+    <p>Made with &#10084; by Clemens Fabig</p>
   </Footer>
 );
 
