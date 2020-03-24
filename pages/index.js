@@ -43,6 +43,10 @@ const Home = () => (
       />
       <meta name="theme-color" content="#001628" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
     <Navbar />
     <HeaderSection />
@@ -78,8 +82,6 @@ const Home = () => (
         margin: 0 auto;
         border-radius: 20px;
       }
-
-      @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
       * {
         font-family: Raleway;
