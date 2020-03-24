@@ -71,32 +71,43 @@ const CustomerSection = () => (
         />
       </div>
       <div>
-        <h3>Coming soon: a simple CRUD example in pure Django</h3>
+        <h3>A Django CRUD example: My website</h3>
         <div className="underline-small-orange"></div>
         <p>
-          Django is a powerful framework based on python.
+          I promised a simple CRUD example in Django and here is the preview.
           <br />
           <br />
-          Sadly my 5 years of Django experience are totally in my former company
-          which doesn't allow me to take it with me.
+          Technology:
           <br />
           <br />
-          At the moment I am developing a simple portfolio exampel to showcase
-          some basics. <br />
+          Frontend: ReactJS with it's library for Server Side Rendering Next.js,
+          Styled Components and Isomorphic Unfetch to call the API.
           <br />
-          If you are only interested in the usability of the backend and a proof
-          of concept just get in touch with me and I will give you the Github
-          repository where some projects are on. Those backends are working but
-          are simply not properly styled or APIs without a frontend.a
+          <br />
+          Database: PostgreSQL
+          <br />
+          <br />
+          Backend: A Python based RESTful API made with Django to create, read,
+          update and delete the posts.
+          <br />
+          <br />
+          It is still work in progress, especially in terms of performance but
+          it I will definetly exchange the dev website with this one within the
+          next couple of days.
           <br />
           <br />
           <br />
         </p>
-        <Link href="#contact">
-          <a className="button">
-            <b>Get in touch</b>
-          </a>
-        </Link>
+
+        <a
+          href="https://github.com/timefliez1210/portfolio"
+          className="button"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <b>Visit GitHub</b>
+        </a>
+
         <br />
         <br />
         <br />

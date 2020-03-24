@@ -61,7 +61,18 @@ const FeedbackSection = () => (
         </div>
         <br />
         <br />
-        <p>*** Feedback following the next couple of days ***</p>
+        <p>
+          [...] Clemens Fabig has been working for us as an independent
+          freelancer since 2019 and has some Commissioned work carried out. The
+          focus was on the development of databases using mysql, programming
+          based on Java and JavaScript, and project work using Django.
+          <br />
+          Mr. Fabig identified himself strongly with the responsibility assumed
+          and drove it on assigned tasks always very committed and with a lot of
+          initiative. Even under permanent considerable workload and in view of
+          new programming challenges Mr. Fabig always had an overview and set
+          the right priorities. [...]
+        </p>
         <br />
         <br />
         <br />
