@@ -33,7 +33,12 @@ const ContactSection = () => (
         <div className="underline-small"></div>
         <br />
         <br />
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          onSubmit={this.handleSubmit}
+        >
           <p>
             <label className="form-input-label">
               Name: <input className="form-input" type="text" name="name" />
