@@ -1,5 +1,5 @@
 import { Feedback, Main, Card } from "./feedback.styles";
-import { FiStar } from "react-icons/fi";
+import { FaStar } from "react-icons/fa";
 
 const FeedbackSection = () => (
   <Feedback id="feedback">
@@ -15,11 +15,11 @@ const FeedbackSection = () => (
         <p>Elena Migunov - Mirage Cosmetics</p>
         <div className="stars">
           <br />
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
         </div>
         <br />
         <br />
@@ -53,11 +53,11 @@ const FeedbackSection = () => (
         <p>Sascha Napiralla - CEO</p>
         <div className="stars">
           <br />
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
         </div>
         <br />
         <br />
@@ -97,8 +97,11 @@ const FeedbackSection = () => (
         <p>Natalia Nezlaw - Gynecologist</p>
         <div className="stars">
           <br />
-          <FiStar /> <FiStar /> <FiStar /> <FiStar />
-          <FiStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
         </div>
         <br />
         <br />

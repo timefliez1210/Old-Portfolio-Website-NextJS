@@ -40,11 +40,15 @@ export const Card = styled.div`
   position: relative;
   z-index: 0;
   .display-img {
-    width: 100%;
+    width: 50%;
     align-self: center;
     z-index: 0;
     border-radius: 40px;
     box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
   }
 `;
 

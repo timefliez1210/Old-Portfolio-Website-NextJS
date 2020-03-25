@@ -39,7 +39,7 @@ export const Card = styled.div`
   .stars {
     width: 20px;
     height: 20px;
-    color: yellow;
+    color: #ff8a00;
     padding: 20px;
     display: inline;
   }
