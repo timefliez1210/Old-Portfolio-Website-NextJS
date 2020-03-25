@@ -34,6 +34,10 @@ export const Cube = styled.div`
   top: -150px;
 
   transform: rotate(70deg);
+
+  @media (max-width: 800px) {
+    top: -100px;
+  }
 `;
 
 export const Prim = styled.div`
@@ -44,4 +48,8 @@ export const Prim = styled.div`
   top: -500px;
   border: 2px solid #ff8a00;
   border-radius: 50%;
+
+  @media (max-width: 800px) {
+    top: -200px;
+  }
 `;
