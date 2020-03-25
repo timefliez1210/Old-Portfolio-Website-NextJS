@@ -1,5 +1,10 @@
 import { BlogList, Card, Prim } from "./blogOverview.styles";
 import Link from "next/link";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2
+} from "react-html-parser";
 
 const BlogOverview = props => (
   <BlogList>
@@ -16,7 +21,7 @@ const BlogOverview = props => (
         <div>
           <h3>{post.title}</h3>
           <div className="underline-small-orange"></div>
-          <p>{post.preview}</p>
+          {ReactHtmlParser(post.preview)}
           <Link href="/blog/[id]" as={`/blog/${post.id}`}>
             <a className="button">
               <b>{post.title}</b>

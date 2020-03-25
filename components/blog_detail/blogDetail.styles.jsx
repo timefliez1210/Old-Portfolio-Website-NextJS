@@ -25,5 +25,10 @@ export const Card = styled.div`
     font-style: italic;
     margin-bottom: 50px;
     margin-top: 50px;
+    text-align: left;
+  }
+
+  .content {
+    text-align: left;
   }
 `;

@@ -1,12 +1,17 @@
 import { DetailSection, Card } from "./blogDetail.styles";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2
+} from "react-html-parser";
 
 const BlogDetail = props => (
   <DetailSection>
     <Card>
       <img src={props.post.picture} />
       <h1>{props.post.title}</h1>
-      {props.post.preview}
-      {props.post.content}
+      <div className="preview"> {ReactHtmlParser(props.post.preview)}</div>
+      <div className="content">{props.post.content}</div>
     </Card>
   </DetailSection>
 );
