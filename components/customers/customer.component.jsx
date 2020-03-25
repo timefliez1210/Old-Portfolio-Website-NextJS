@@ -50,7 +50,7 @@ const CustomerSection = () => (
         </p>
         <a
           className="button"
-          href="https://shop-app-portfolio.herokuapp.com/"
+          href="https://my-final-version.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
         >
