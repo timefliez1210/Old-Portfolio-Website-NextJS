@@ -2,6 +2,11 @@ import BlogOverview from "../components/blog_overview/blogOverview.component";
 
 import Head from "next/head";
 import fetch from "isomorphic-unfetch";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2
+} from "react-html-parser";
 
 const Blog = props => (
   <div>
@@ -49,11 +54,17 @@ const Blog = props => (
         async
         src="https://www.googletagmanager.com/gtag/js?id=UA-160662945-1"
       ></script>
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag(){" "}
-        {dataLayer.push(arguments)}
-        gtag("js", new Date()); gtag("config", "UA-160662945-1");
-      </script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-160662945-1");`
+        }}
+      />
     </Head>
 
     <BlogOverview {...props} />
