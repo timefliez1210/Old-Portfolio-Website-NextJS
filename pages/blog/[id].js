@@ -7,7 +7,7 @@ const Post = props => {
   return (
     <div>
       <Head>
-        <title>Freelance Web dev</title>
+        <title>{props.post.title}</title>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
@@ -51,7 +51,9 @@ const Post = props => {
 
 Post.getInitialProps = async function(context) {
   const { id } = context.query;
-  const res = await fetch(`https://my-awesom-blog-api.herokuapp.com/api/${id}`);
+  const res = await fetch(
+    `https://my-awesom-blog-api-crf.herokuapp.com/api/${id}`
+  );
   const post = await res.json();
 
   console.log(`Fetched show: ${post.name}`);

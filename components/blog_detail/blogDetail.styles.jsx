@@ -25,6 +25,7 @@ export const DetailSection = styled.section`
 
 export const Card = styled.div`
   width: 90vw;
+  max-width: 1020px;
   margin: 0 auto;
   border-radius: 40px;
   box-shadow: 20px 20px 30px #ababab, -20px -20px 30px #ffffff;
@@ -39,9 +40,13 @@ export const Card = styled.div`
     margin-bottom: 30px;
     margin-top: 50px;
     text-align: left;
+    max-width: 820px;
+    margin: 0 auto;
   }
 
   .content {
     text-align: left;
+    max-width: 820px;
+    margin: 0 auto;
   }
 `;

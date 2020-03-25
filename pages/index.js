@@ -10,7 +10,9 @@ import Head from "next/head";
 const Home = () => (
   <div>
     <Head>
-      <title>Freelance Web dev</title>
+      <title>
+        Freelancing Web App and Mobile App Developer - Clemens Fabig
+      </title>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta
@@ -18,7 +20,10 @@ const Home = () => (
         content="width=device-width,initial-scale=1"
         key="viewport"
       />
-      <meta name="description" content="Description" />
+      <meta
+        name="description"
+        content="Webdesign, Cross Platform Mobile Aplications, Single Standing Web Applications and RESTful API services. More than 20 satisfied customers for static homepages, web applications and cross platform mobile applications."
+      />
 
       <link rel="manifest" href="/manifest.json" />
       <link rel="splash-screen" sizes="512x512" href="/splashscreen.png" />

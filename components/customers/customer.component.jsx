@@ -74,7 +74,8 @@ const CustomerSection = () => (
         <h3>A Django CRUD example: My website</h3>
         <div className="underline-small-orange"></div>
         <p>
-          I promised a simple CRUD example in Django and here is the preview.
+          This website is a small example for a Django (backend) - Next.js
+          (frontend) CRUD operation.
           <br />
           <br />
           Technology:

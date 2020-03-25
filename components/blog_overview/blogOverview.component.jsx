@@ -22,6 +22,8 @@ const BlogOverview = props => (
           <h3>{post.title}</h3>
           <div className="underline-small-orange"></div>
           {ReactHtmlParser(post.preview)}
+          <br />
+          <br />
           <Link href="/blog/[id]" as={`/blog/${post.id}`}>
             <a className="button">
               <b>{post.title}</b>

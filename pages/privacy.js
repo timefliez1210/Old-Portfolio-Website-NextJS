@@ -3,7 +3,9 @@ import Head from "next/head";
 const Privacy = () => (
   <div>
     <Head>
-      <title>Freelance Web dev</title>
+      <title>
+        Even Freelancer for Web and Mobile Development respect your privacy.
+      </title>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta
@@ -11,7 +13,10 @@ const Privacy = () => (
         content="width=device-width,initial-scale=1"
         key="viewport"
       />
-      <meta name="description" content="Description" />
+      <meta
+        name="description"
+        content="My Legal informations and the privacy policy."
+      />
 
       <link rel="manifest" href="/manifest.json" />
       <link rel="splash-screen" sizes="512x512" href="/splashscreen.png" />

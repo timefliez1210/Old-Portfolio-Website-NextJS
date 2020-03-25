@@ -10,8 +10,11 @@ const BlogDetail = props => (
     <Card>
       <img src={props.post.picture} />
       <h1>{props.post.title}</h1>
+      <br /> <br />
       <div className="preview"> {ReactHtmlParser(props.post.preview)}</div>
-      <div className="content">{props.post.content}</div>
+      <br />
+      <br />
+      <div className="content">{ReactHtmlParser(props.post.content)}</div>
     </Card>
   </DetailSection>
 );
