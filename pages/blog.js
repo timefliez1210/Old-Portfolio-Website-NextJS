@@ -75,8 +75,6 @@ Blog.getInitialProps = async function() {
   const res = await fetch("https://my-awesom-blog-api-crf.herokuapp.com/api/");
   const data = await res.json();
 
-  console.log(data);
-
   return {
     posts: data
   };

@@ -72,8 +72,6 @@ Post.getInitialProps = async function(context) {
   );
   const post = await res.json();
 
-  console.log(`Fetched show: ${post.name}`);
-
   return { post };
 };
 
