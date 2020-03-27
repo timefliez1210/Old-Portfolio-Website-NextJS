@@ -22,7 +22,7 @@ const Home = () => (
       />
       <meta
         name="description"
-        content="Webdesign, Cross Platform Mobile Aplications, Single Standing Web Applications and RESTful API services. More than 20 satisfied customers for static homepages, web applications and cross platform mobile applications."
+        content="Webdesign, Cross Platform Mobile Aplications, Standalone Web Applications and RESTful API services. Static homepages, web applications and cross platform mobile applications."
       />
 
       <link rel="manifest" href="/manifest.json" />
