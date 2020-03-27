@@ -75,7 +75,7 @@ const Home = () => (
     <FeedbackSection />
     {/* <!-- Contact --> */}
     <ContactSection />
-    as
+
     {/* <!-- footer  --> */}
   </div>
 );
