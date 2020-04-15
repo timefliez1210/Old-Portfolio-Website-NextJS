@@ -53,6 +53,7 @@ const CustomerSection = () => (
           href="https://my-final-version.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
+          title="React.js with node.js for online shop"
         >
           <b>Visit</b>
         </a>
@@ -105,6 +106,7 @@ const CustomerSection = () => (
           className="button"
           target="_blank"
           rel="noreferrer"
+          title="Python Django backend development Reference"
         >
           <b>Visit GitHub</b>
         </a>
@@ -121,7 +123,7 @@ const CustomerSection = () => (
         <img
           className="display-img"
           src="/mirage.jpg"
-          alt="HTML and CSS Reference"
+          alt="HTML, CSS and SEO Reference"
         />
       </div>
       <div>
@@ -159,6 +161,7 @@ const CustomerSection = () => (
           href="https://www.kosmetikstudio-hildesheim.de/"
           target="_blank"
           rel="noreferrer"
+          title="HTML, CSS and SEO Reference"
         >
           <b>Visit</b>
         </a>
@@ -207,6 +210,7 @@ const CustomerSection = () => (
           href="https://www.farbenfreak.com/"
           target="_blank"
           rel="noreferrer"
+          title="JavaScript and Webflow reference - Farbenfreak"
         >
           <b>Visit</b>
         </a>
@@ -222,7 +226,7 @@ const CustomerSection = () => (
         <img
           className="display-img"
           src="/nataliaNezlawPage.jpg"
-          alt="Simple online Businesscard"
+          alt="Webdesign for a simple HTML and CSS3 Homepage"
         />
       </div>
       <div>
@@ -256,6 +260,7 @@ const CustomerSection = () => (
           href="http://www.praxisnatalianezlaw.de/"
           target="_blank"
           rel="noreferrer"
+          title="Reference for simple HTML and CSS content"
         >
           <b>Visit</b>
         </a>
@@ -265,7 +270,7 @@ const CustomerSection = () => (
       </div>
     </Display>
     <Link href="#contact">
-      <a className="button">
+      <a className="button" title="Kontakt zum Webdeveloper">
         <b>Get in touch</b>
       </a>
     </Link>

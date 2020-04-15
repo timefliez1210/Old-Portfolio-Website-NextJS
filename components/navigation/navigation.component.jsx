@@ -2,7 +2,7 @@ import {
   FaStoreAlt,
   FaRegHeart,
   FaProjectDiagram,
-  FaNewspaper
+  FaNewspaper,
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import Link from "next/link";
@@ -13,7 +13,7 @@ const Navbar = () => (
   <Navigation>
     <div className="container">
       <Link href="/">
-        <a>
+        <a title="Home page of Fullstack Webdevelopment">
           <div className="holder 1">
             <FaStoreAlt />
             <br />
@@ -23,7 +23,7 @@ const Navbar = () => (
       </Link>
 
       <Link href="/#projects">
-        <a>
+        <a title="References of Django, React.js, Next.js and HTML/CSS/JS">
           <div className="holder 2">
             <FaProjectDiagram />
             <br />
@@ -33,7 +33,7 @@ const Navbar = () => (
       </Link>
 
       <Link href="/#feedback">
-        <a>
+        <a title="Customer Feedback for my Webdesign and Webdevelopment Services">
           {" "}
           <div className="holder 3">
             <FaRegHeart />
@@ -44,7 +44,7 @@ const Navbar = () => (
       </Link>
 
       <Link href="/#contact">
-        <a>
+        <a title="Contact to your Webdesigner / Webdeveloper">
           {" "}
           <div className="holder 4">
             <FiSend />
@@ -55,7 +55,7 @@ const Navbar = () => (
       </Link>
 
       <Link href="/blog">
-        <a>
+        <a title="Knowledge Blod about the Basics in Webdesign and Webdevelopment">
           {" "}
           <div className="holder2 5">
             <FaNewspaper />
