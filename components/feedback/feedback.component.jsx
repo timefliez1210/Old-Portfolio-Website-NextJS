@@ -37,6 +37,7 @@ const FeedbackSection = () => (
           href="https://www.kosmetikstudio-hildesheim.de/"
           target="_blank"
           rel="noreferrer"
+          title="Feedback zum Webdesign"
         >
           <b>Visit</b>
         </a>
@@ -81,6 +82,7 @@ const FeedbackSection = () => (
           href="http://www.nextlevel-medienagentur.de"
           target="_blank"
           rel="noreferrer"
+          title="Feedback Webdevelopment und Webdesign"
         >
           <b>Visit</b>
         </a>
@@ -118,6 +120,7 @@ const FeedbackSection = () => (
           href="http://www.praxisnatalianezlaw.de/"
           target="_blank"
           rel="noreferrer"
+          title="Feeback HTML and CSS Webdesign"
         >
           <b>Visit</b>
         </a>
