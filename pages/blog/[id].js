@@ -3,7 +3,7 @@ import BlogDetail from "../../components/blog_detail/blogDetail.component";
 import Head from "next/head";
 import fetch from "isomorphic-unfetch";
 
-const Post = props => {
+const Post = (props) => {
   return (
     <div>
       <Head>
@@ -55,7 +55,7 @@ const Post = props => {
       }
       gtag("js", new Date());
 
-      gtag("config", "UA-160662945-1");`
+      gtag("config", "UA-160662945-1");`,
           }}
         />
       </Head>
@@ -65,7 +65,7 @@ const Post = props => {
   );
 };
 
-Post.getInitialProps = async function(context) {
+Post.getInitialProps = async function (context) {
   const { id } = context.query;
   const res = await fetch(
     `https://my-awesom-blog-api-crf.herokuapp.com/api/${id}`

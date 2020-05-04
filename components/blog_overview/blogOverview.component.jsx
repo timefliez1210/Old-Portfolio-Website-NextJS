@@ -3,12 +3,12 @@ import Link from "next/link";
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,
-  htmlparser2
+  htmlparser2,
 } from "react-html-parser";
 
-const BlogOverview = props => (
+const BlogOverview = (props) => (
   <BlogList>
-    {props.posts.map(post => (
+    {props.posts.map((post) => (
       <Card key={post.id} {...post}>
         <Prim />
         <div>
