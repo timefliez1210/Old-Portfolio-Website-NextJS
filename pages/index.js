@@ -63,7 +63,7 @@ const Home = () => (
       }
       gtag("js", new Date());
 
-      gtag("config", "UA-160662945-1");`
+      gtag("config", "UA-160662945-1");`,
         }}
       />
     </Head>

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: clemensfabig.com
+Token: 426f8002b9308a4c554bc0dd6546424c056c6fbe25713e584d42f7ecd658011b
