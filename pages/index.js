@@ -49,10 +49,11 @@ const Home = () => (
       <link
         href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
         rel="stylesheet"
+        preconnect
       ></link>
       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
       <script
-        async
+        defer
         src="https://www.googletagmanager.com/gtag/js?id=UA-160662945-1"
       ></script>
       <script
