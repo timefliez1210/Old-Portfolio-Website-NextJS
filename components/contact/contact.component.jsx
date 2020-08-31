@@ -12,18 +12,11 @@ const ContactSection = () => (
         <br />
         <p>
           Name: Clemens Fabig
-          <br />
-          <br />
-          email: crfabig@gmail.com <br />
-          <br />
-          whatsapp: +491520 308 0947
+          <b />
         </p>
         <br />
         <br />
-        <br />
-        <a className="button" href="mailto:crfabig@gmail.com">
-          <b>Write a mail</b>
-        </a>
+
         <br />
         <br />
         <br />

@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const FooterSection = () => (
   <Footer>
-    <Link href="/privacy">
+    <Link href="">
       <a>Privacy Policy & Legal Stuff</a>
     </Link>
     <Prim />
-    <p>&copy; by Clemens Fabig, 2020</p>
+
     <Cube />
     <p>Made with &#10084; by Clemens Fabig</p>
   </Footer>

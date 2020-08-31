@@ -70,14 +70,8 @@ const Home = () => (
     </Head>
     {/* <!-- services  --> */}
     <ServiceSection />
-    {/* <!-- customer  --> */}
-    <CustomerSection />
-    {/* <!-- feedback  --> */}
-    <FeedbackSection />
-    {/* <!-- Contact --> */}
-    <ContactSection />
 
-    {/* <!-- footer  --> */}
+    {/* <ContactSection /> */}
   </div>
 );
 

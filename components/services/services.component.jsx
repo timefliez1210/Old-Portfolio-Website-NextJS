@@ -22,7 +22,7 @@ const ServiceSection = () => (
           applications <br />
           <br />
         </p>
-        <h3>I am currently available for work</h3>
+        <h3>I am currently not available for work</h3>
         <div className="underline-small"></div>
         <br />
         <br />
@@ -30,11 +30,11 @@ const ServiceSection = () => (
         <br />
         <br />
         <br />
-        <Link href="#contact">
+        {/* <Link href="#contact">
           <a className="button">
             <b>Get in touch</b>
           </a>
-        </Link>
+        </Link> */}
         <br />
         <br />
         <br />
